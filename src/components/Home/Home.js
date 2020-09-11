@@ -5,20 +5,22 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 
 import logo from './assets/logo.svg';
-import qrcode from './assets/qrcode.png';
+import qrcode from './assets/qrcode.svg';
 import watch from './assets/watch.svg';
 
 import tower from './assets/tower.svg';
-import phone from './assets/phone.png';
+import phone from './assets/phone.svg';
 
-import mockup from './assets/emailmock.png';
+import mockup from './assets/emailmock.svg';
 import message from './assets/message.png';
 
-import store from './assets/store.png';
+import store from './assets/store.svg';
 import aid from './assets/aid.svg';
 
 import emoji from './assets/emojis.png';
+import manrun from './assets/manrun.svg';
 
+import glogo from './assets/glogo.svg';
 
 import './Home.css'
 
@@ -60,13 +62,13 @@ function Home() {
                 </Row>
             </Container>
             <Container fluid className="way-container way-intro" id="learn">
-                <Row className="parent">
-                    <Col className="phonez text-center b" lg={6}>
+                <Row className="">
+                    <Col className="phonez text-center" lg={6}>
                     </Col>
-                    <Col className="phonez c">
+                    <Col className="phonez ">
                         <h1 className="way-phone-text">The convenience of pickup.<br></br> In a better Way.</h1>
                          
-                        <p className="" >Your portal to your favorite Collegetown restaurants lives on campus.</p>
+                        <p className="none" >Your portal to your favorite Collegetown <br></br> restaurants lives on campus.</p>
                         <img src={tower} alt="clocktower"/>
 
                         <p className="break" >Way is a breakthrough pickup platform designed to make sure you don’t waste a second of your day. Just scan from thousands of our unique QR codes around campus to order and pay on your way home, on your way to class, or simply on your way.</p>
@@ -98,8 +100,8 @@ function Home() {
 
 
             <Container fluid className="way-containerd">
-                <Row>
-                    <Col lg={6}>
+                <Row className="parent">
+                    <Col className="c" lg={6}>
                         <div className="benefita">
                             <div className="text">
                             <h3>This Way helps you keep it contactless.</h3>
@@ -108,7 +110,7 @@ function Home() {
                         </div>
                     </Col>
 
-                    <Col lg={6}>
+                    <Col className="b" lg={6}>
                         <div className="photoa">
                              <img src={qrcode} alt="qr code"/>
 
@@ -121,9 +123,9 @@ function Home() {
 
 
             <Container fluid className="way-containere">
-                <Row>
+                <Row className="parent">
 
-                <Col lg={6}>
+                <Col className="b"lg={6}>
                         <div className="photob">
                              <img src={watch} alt="apple watch"/>
 
@@ -132,7 +134,7 @@ function Home() {
 
 
 
-                    <Col lg={6}>
+                    <Col className="c" lg={6}>
                         <div className="benefitb">
                             <div className="text">
                                 <h3>It saves you when you’re in a rush.</h3>
@@ -147,8 +149,8 @@ function Home() {
 
 
             <Container fluid className="way-containerf">
-                <Row>
-                    <Col lg={6}>
+                <Row className="parent">
+                    <Col className="c" lg={6}>
                         <div className="benefitc">
                             <div className="text">
                             <h3>And lets you go without guessing.</h3>
@@ -157,7 +159,7 @@ function Home() {
                         </div>
                     </Col>
 
-                    <Col lg={6}>
+                    <Col  className="b"lg={6}>
                         <div className="photoca">
                             <img src={message} alt="Sarahs message"/>
                             </div>
@@ -172,15 +174,15 @@ function Home() {
 
 
             <Container fluid className="way-containerg">
-                <Row>
+                <Row className="parent">
 
-                <Col lg={6}>
+                <Col className="b" lg={6}>
                         <div className="photod">
                             <img src={store} alt="Sarahs message"/>
                             </div>
                     </Col>
 
-                    <Col lg={6}>
+                    <Col className="c" lg={6}>
                         <div className="benefitd">
                             <div className="text">
                             <h3>This Way loves local businesses.</h3>
@@ -198,8 +200,8 @@ function Home() {
 
 
             <Container fluid className="way-containerh">
-                <Row>
-                    <Col lg={6}>
+                <Row className="parent">
+                    <Col className="c"lg={6}>
                         <div className="benefite">
                             <div className="text">
                             <h3>And keeps everyone safe.</h3>
@@ -208,7 +210,7 @@ function Home() {
                         </div>
                     </Col>
 
-                    <Col lg={6}>
+                    <Col className="b" lg={6}>
                         <div className="photoe">
                             <img src={aid} alt="Sarahs message"/>
                             </div>
@@ -220,8 +222,8 @@ function Home() {
 
 
             <Container fluid className="way-containeri">
-                <Row>
-                <Col lg={6}>
+                <Row className="parent">
+                <Col className="b" lg={6}>
                         <div className="photof">
                             <img src={emoji} alt="emojis"/>
                             </div>
@@ -230,7 +232,7 @@ function Home() {
                     </Col>
 
                     
-                    <Col lg={6}>
+                    <Col  className="c" lg={6}>
                         <div className="benefitf">
                             <div className="text">
                             <h3>This Way helps you crush your day.</h3>
@@ -246,12 +248,83 @@ function Home() {
 
 
 
-            <Container className="way-why text-center steps why" id="benefits">
-                <Row>
-                    <Col xs={12}><h4>This Way helps you crush your day.</h4></Col>
-                    <Col xs={12}><p>With QR codes strategically placed on the street, in the classroom, and on your path, it’s made for all your day’s twists and turns. </p></Col>
+            <Container fluid className="way-containerj">
+                <Row className="parent">
+                    <Col className="c" lg={6}>
+                        <div className="benefitg">
+                            <div className="text">
+                            <h3>And motivates you to do more.</h3>
+                            <p>Scan on the go and order in seconds <br></br> without thought. Make your everyday life <br></br>more efficient.</p>
+                            </div>
+                        </div>
+                    </Col>
+
+                    <Col className="b" lg={6}>
+                        <div className="photog">
+                            <img src={manrun} alt="running man in logo"/>
+            
+                            </div>
+
+
+                    </Col>
                 </Row>
             </Container>
+
+
+            <Container fluid className="way-containerk " id="How">
+            <h3>Order and Pay with Way<br></br><span className='special'> Any time. Any place.<br></br> Any Way you want.</span></h3>
+
+
+        </Container>
+
+    
+
+        <Container fluid className="way-containerz" id="learn">
+
+            <Row className="glogo">
+                        <Col className="glogo" >
+
+                        <img src={glogo} alt="way logo"/>
+
+                        </Col>
+                        
+                    </Row>
+
+
+                <Row className="rowed">
+                    <Col className="phonez" >
+
+                         <a className="insta" href="https://www.instagram.com/paywithway/"><div className="insta"></div></a>
+
+                    </Col>
+                    <Col className="phonez "  sm>
+                         
+                         <a className="email" href="mailto:business@paywithway.com"><div className="email"></div></a>
+
+
+
+                    </Col>
+
+                    <Col className="phonez text-center" sm>
+
+                        <a className="face" href=""><div className="face"></div></a>
+
+                    </Col>
+                </Row>
+
+                <Row className="">
+                        <Col className="privacy" >
+
+                        <a>Terms of Service</a> <span>| </span> <a>Privacy Policy</a>
+                        <br></br>
+
+                        <h3>© 2020 WAY Holdings, Inc.</h3>
+
+                        </Col>
+                        
+                    </Row>
+
+         </Container>
 
         </div>
     )
