@@ -315,7 +315,7 @@ function Home() {
                 <Row className="">
                         <Col className="privacy" >
 
-                        <a>Terms of Service</a> <span>| </span> <a>Privacy Policy</a>
+                        <a href="https://www.paywithway.com/terms">Terms of Service</a> <span>| </span> <a href="https://www.paywithway.com/privacy">Privacy Policy</a>
                         <br></br>
 
                         <h3>© 2020 WAY Holdings, Inc.</h3>
