@@ -601,7 +601,10 @@ color: #12b2eb;
     
 
 }
-
+.mobile 
+{
+    display:none;
+}
 
 
 
@@ -1083,7 +1086,7 @@ color: #12b2eb;
 .way-containerk{
     margin-top: -40%;
     text-align: center;
-    background-image: url(./assets/footer.jpg) ;
+    background-image: url(./assets/footer.png) ;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -1737,7 +1740,7 @@ color: #12b2eb;
 .way-containerk{
     margin-top: -40%;
     text-align: center;
-    background-image: url(./assets/footer.jpg) ;
+    background-image: url(./assets/footer.png) ;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -1903,7 +1906,14 @@ color: #12b2eb;
     
 
 }
+.mobile 
+{
+    display:inline-block;
+}
 
+.desktop {
+    display:none
+}
 
 
 

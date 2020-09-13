@@ -9,7 +9,7 @@ import qrcode from './assets/qrcode.svg';
 import watch from './assets/watch.svg';
 
 import tower from './assets/tower.svg';
-import phone from './assets/phone.svg';
+import phone from './assets/phone.png';
 
 import mockup from './assets/emailmock.svg';
 import message from './assets/message.png';
@@ -44,7 +44,9 @@ function Home() {
                                 <p>
                                 The new Way to order food on campus.
                                 </p>
-                                <button class="btn">Order Now</button> 
+                                <a href ="/order" className="desktop"><button class="btn">Order Now</button></a>
+                                <a href ="https://app.paywithway.com/" className="mobile"><button class="btn">Order Now</button></a>
+
                                 </div>
 
 
@@ -90,7 +92,8 @@ function Home() {
 
                    <h1> You’ve never experienced <br></br> an easier Way than this.</h1>
 
-                   <button class="btnn">Order Now</button> 
+                   <a href ="/order" className="desktop"><button class="btnn">Order Now</button></a>
+                   <a href ="https://app.paywithway.com/" className="mobile"><button class="btnn">Order Now</button></a>
 
                     </Col>
                 </Row>

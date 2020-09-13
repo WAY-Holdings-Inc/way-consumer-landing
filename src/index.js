@@ -6,6 +6,7 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Home from './components/Home/Home'
+import Order from './components/Order/Order'
 
  
 
@@ -14,6 +15,7 @@ const routing = (
     <div>
       <Switch>
         <Route exact path="/" component={Home}/>
+        <Route exact path="/order" component={Order}/>
       </Switch>
     </div>
   </Router>
