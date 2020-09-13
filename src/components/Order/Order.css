@@ -18,7 +18,7 @@ html, body {
 
 }
 
-.way-container {
+.way-containert {
     padding: 10%;
     padding-bottom: 20%;
     margin-top:-5%;
@@ -28,7 +28,7 @@ html, body {
 
 }
 
-.way-container h1 {
+.way-containert h1 {
     font-size: 42px;
     font-family: "Nunito-Bold";
     color: #868686;
@@ -232,7 +232,7 @@ color: #12b2eb;
         
         }
         
-        .way-container {
+        .way-containert {
             padding: 10%;
             padding-bottom: 20%;
             margin-top:-5%;
@@ -242,7 +242,7 @@ color: #12b2eb;
         
         }
         
-        .way-container h1 {
+        .way-containert h1 {
             font-size: 32px;
             font-family: "Nunito-Bold";
             color: #868686;
@@ -510,19 +510,19 @@ color: #12b2eb;
         .none br {
             display: block;
         }
-        .way-container {
+        .way-containert {
             padding-top: 5%;
             text-align: center;
         
         }
         
-        .way-container h1 {
+        .way-containert h1 {
             font-size: 24px;
             font-family: "Nunito-Bold";
         
         }
         
-        .way-container p {
+        .way-containert p {
             font-size: 14px;
             font-family: "Nunito-SemiBold";
             color: #868686;
