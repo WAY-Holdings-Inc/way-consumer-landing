@@ -17,6 +17,18 @@
 }
 
 
+@font-face {
+  font-family: 'BrandonText-normal';
+  font-style: normal;
+  src: local('BrandonText'), url(./fonts/brandon-text-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'BrandonText-bold';
+  font-style: bold;
+  src: local('BrandonText'), url(./fonts/brandon-text-medium.woff) format('woff');
+}
+
 
 
 body {

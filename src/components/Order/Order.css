@@ -1,10 +1,8 @@
 
 
 html, body {
-	position:relative;
 	overflow-x:hidden;
 }
-
 
 
 
@@ -104,7 +102,7 @@ html, body {
 
     }
 
-.rowed {
+.rowedd {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
@@ -115,12 +113,12 @@ html, body {
 }
 
 
-.way-containerz {
+.way-containerza {
     margin-top: 5%;
     margin-left:1%;
 }
 
-.phonez {
+.phoneza {
     
     padding-left: 5.5%;
 }
@@ -128,11 +126,11 @@ html, body {
 
 
 
-.privacy {
+.privacys {
     text-align: center;
 }
 
-.privacy h3{
+.privacys h3{
     padding-top: 0%;
 
     font-family: 'Nunito-Regular';
@@ -146,7 +144,7 @@ color: #C4C4C4;
 
 }
 
-.privacy a{
+.privacys a{
 
     margin-top: 30%;
     text-decoration: none;
@@ -160,7 +158,7 @@ color: #C4C4C4;
 }
 
 
-.privacy a:hover{
+.privacys a:hover{
     cursor: pointer;
     
     margin-top: 30%;
@@ -176,7 +174,7 @@ color: #12b2eb;
 }
 
 
-.privacy {
+.privacys {
     margin-left: -2%;
     margin-top: 2%;
     margin-bottom: 5%;

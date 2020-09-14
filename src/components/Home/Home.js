@@ -284,8 +284,8 @@ function Home() {
 
         <Container fluid className="way-containerz" id="learn">
 
-            <Row className="alogo">
-                        <Col className="alogo" >
+            <Row className="glogo">
+                        <Col className="glogo" >
 
                         <img src={glogo} alt="ay logo"/>
 
@@ -302,7 +302,7 @@ function Home() {
                     </Col>
                     <Col className="phonez "  sm>
                          
-                         <a className="email" href="mailto:business@paywithway.com"><div className="email"></div></a>
+                         <a className="email" href="mailto:info@paywithway.com"><div className="email"></div></a>
 
 
 
@@ -318,7 +318,7 @@ function Home() {
                 <Row className="">
                         <Col className="privacy" >
 
-                        <a href="https://www.paywithway.com/terms">Terms of Service</a> <span>| </span> <a href="https://www.paywithway.com/privacy">Privacy Policy</a>
+                        <a href="/terms">Terms of Service</a> <span>| </span> <a href="/privacy">Privacy Policy</a>
                         <br></br>
 
                         <h3>© 2020 WAY Holdings, Inc.</h3>

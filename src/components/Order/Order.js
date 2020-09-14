@@ -16,7 +16,7 @@ function Home() {
     return (
         <div>
            
-            <Container fluid className="way-container way-intro" id="learn">
+            <Container fluid className="way-containert way-intro" id="learn">
 
             <Col className="ologo" >
 
@@ -26,7 +26,7 @@ function Home() {
             </Col>
 
                 <Row className="">
-                    <Col className="phonez ">
+                    <Col className="phoneza ">
                         <h1 className="way-phone-text">SCAN TO ORDER</h1>
                          
                         <img src={qrcode} alt="qrcode"/>
@@ -43,17 +43,17 @@ function Home() {
 
     
 
-        <Container fluid className="way-containerz" id="learn">
+        <Container fluid className="way-containerza" id="learn">
 
           
 
-                <Row className="rowed">
-                    <Col className="phonez" >
+                <Row className="rowedd">
+                    <Col className="phoneza" >
 
                          <a className="insta" href="https://www.instagram.com/paywithway/"><div className="insta"></div></a>
 
                     </Col>
-                    <Col className="phonez "  sm>
+                    <Col className="phoneza "  sm>
                          
                          <a className="email" href="mailto:business@paywithway.com"><div className="email"></div></a>
 
@@ -61,7 +61,7 @@ function Home() {
 
                     </Col>
 
-                    <Col className="phonez text-center" sm>
+                    <Col className="phoneza text-center" sm>
 
                         <a className="face" href=""><div className="face"></div></a>
 
@@ -69,7 +69,7 @@ function Home() {
                 </Row>
 
                 <Row className="">
-                        <Col className="privacy" >
+                        <Col className="privacys" >
 
                         <a href="https://www.paywithway.com/terms">Terms of Service</a> <span>| </span> <a href="https://www.paywithway.com/privacy">Privacy Policy</a>
                         <br></br>
