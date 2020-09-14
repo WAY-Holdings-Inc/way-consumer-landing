@@ -284,10 +284,10 @@ function Home() {
 
         <Container fluid className="way-containerz" id="learn">
 
-            <Row className="glogo">
-                        <Col className="glogo" >
+            <Row className="alogo">
+                        <Col className="alogo" >
 
-                        <img src={glogo} alt="way logo"/>
+                        <img src={glogo} alt="ay logo"/>
 
                         </Col>
                         
