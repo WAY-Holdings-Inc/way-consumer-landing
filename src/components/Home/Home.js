@@ -274,15 +274,20 @@ function Home() {
             </Container>
 
 
-            <Container fluid className="way-containerk " id="How">
+            <Container fluid className="way-containerk " >
+           
             <h3>Order and Pay with Way<br></br><span className='special'> Any time. Any place.<br></br> Any Way you want.</span></h3>
-
-
+            
         </Container>
 
-    
+        <Container fluid className="way-containerbutton " >
+           
+           <a href ="/order" className="desktop"><button class="btnz">Order Now</button></a>
+                               <a href ="https://app.paywithway.com/" className="mobile"><button class="btnz">Order Now</button></a>
 
-        <Container fluid className="way-containerz" id="learn">
+       </Container>
+
+        <Container fluid className="way-containerz" >
 
             <Row className="glogo">
                         <Col className="glogo" >
@@ -316,12 +321,12 @@ function Home() {
                 </Row>
 
                 <Row className="">
-                        <Col className="privacy" >
+                        <Col className="privacyy" >
 
                         <a href="/terms">Terms of Service</a> <span>| </span> <a href="/privacy">Privacy Policy</a>
                         <br></br>
 
-                        <h3>© 2020 WAY Holdings, Inc.</h3>
+                        <p>© 2020 WAY Holdings, Inc.</p>
 
                         </Col>
                         
