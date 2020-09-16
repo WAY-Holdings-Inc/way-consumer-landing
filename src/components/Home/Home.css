@@ -65,15 +65,21 @@ overflow: hidden;
 .none br {
     display: none;
 }
-.store{
-    margin-top: -22%;
-    margin-left: 55%;
-    width: 100%;
+.store img{
+    margin-top: -25%;
+    margin-left: 50%;
+    width:650px;
+    height:auto;
 }
 
 .way-container {
     padding-top: 5%;
     text-align: center;
+
+}
+
+.way-containere {
+    margin-top: 15%;
 
 }
 
@@ -92,11 +98,14 @@ overflow: hidden;
 }
 
 .break {
-    width:60%;
-    margin-left: 20%;
+    width:72%;
+    margin-left: 15%;
     text-align: center;
 }
 
+.way-container img {
+    width:80%;
+}
 
 
 
@@ -114,6 +123,7 @@ overflow: hidden;
     font-size: 72px;
     margin-bottom: -25%;
     margin-top:20%;
+    margin-left: -5%;
     
 
 }
@@ -261,9 +271,11 @@ overflow: hidden;
     
     }
     .photocb img {
-        margin-left:70.5%;
+        margin-left:67.5%;
         margin-top: -45%;
         overflow: hidden;
+        width:750px;
+    height:auto;
 
     }
 
@@ -289,7 +301,7 @@ overflow: hidden;
         
             margin-top: -70%;
         
-            margin-left: 0%;
+            margin-left: 5%;
             color: #000000 ;
             font-family:'Nunito-Bold';
             font-size: 48px;
@@ -297,7 +309,7 @@ overflow: hidden;
         }
         
         .benefitd  p{
-            margin-left: 10%;
+            margin-left: 15%;
             color: #000000 ;
             font-family:'Nunito-SemiBold';
             color: #868686;
@@ -310,6 +322,8 @@ overflow: hidden;
         margin-left:7.5%;
         margin-top:10%;
         overflow: hidden;
+        width:500px;
+        height:auto;
 
         }
     
@@ -465,63 +479,63 @@ overflow: hidden;
 
 
    
-    .insta {
-        background-image: url(./assets/insta.svg) ;
-        height: 40px;
-        width: 40px;
+    .instah {
+        background-image: url(./assets/insta.png) ;
+        height: 50px;
+        width: 50px;
         background-size: cover;
         background-repeat: no-repeat;
 
 
     }
 
-    .insta:hover{
+    .instah:hover{
         cursor: pointer;
-        background-image: url(./assets/instaf.svg) ;
-        height: 40px;
-        width: 40px;
+        background-image: url(./assets/instaf.png) ;
+        height: 50px;
+        width: 50px;
         background-size: cover;
         background-repeat: no-repeat;
 
 
     }
 
-    .email {
+    .emailh {
         background-image: url(./assets/email.svg) ;
-        height: 40px;
-        width: 40px;
+        height: 50px;
+        width: 50px;
         background-size: cover;
         background-repeat: no-repeat;
 
 
     }
 
-    .email:hover{
+    .emailh:hover{
         cursor: pointer;
         background-image: url(./assets/emailf.svg) ;
-        height: 40px;
-        width: 40px;
+        height: 50px;
+        width: 50px;
         background-size: cover;
         background-repeat: no-repeat;
 
 
     }
 
-    .face {
-        background-image: url(./assets/fb.svg) ;
-        height: 40px;
-        width: 40px;
+    .faceh {
+        background-image: url(./assets/face.png) ;
+        height: 50px;
+        width: 50px;
         background-size: cover;
         background-repeat: no-repeat;
 
 
     }
 
-    .face:hover{
+    .faceh:hover{
         cursor: pointer;
-        background-image: url(./assets/fbf.svg) ;
-        height: 40px;
-        width: 40px;
+        background-image: url(./assets/facef.png) ;
+        height: 50px;
+        width: 50px;
         background-size: cover;
         background-repeat: no-repeat;
 
@@ -558,6 +572,8 @@ overflow: hidden;
 
 .privacyy {
     text-align: center;
+    color:  #C4C4C4;
+
 }
 
 .privacyy p{
@@ -1149,7 +1165,7 @@ color: #12b2eb;
 
    
     .insta {
-        background-image: url(./assets/insta.svg) ;
+        background-image: url(./assets/instaf.svg) ;
         height: 40px;
         width: 40px;
         background-size: cover;
@@ -1160,7 +1176,7 @@ color: #12b2eb;
 
     .insta:hover{
         cursor: pointer;
-        background-image: url(./assets/instaf.svg) ;
+        background-image: url(./assets/instaf.png) ;
         height: 40px;
         width: 40px;
         background-size: cover;
@@ -1191,7 +1207,7 @@ color: #12b2eb;
     }
 
     .face {
-        background-image: url(./assets/fb.svg) ;
+        background-image: url(./assets/face.png) ;
         height: 40px;
         width: 40px;
         background-size: cover;
@@ -1202,7 +1218,7 @@ color: #12b2eb;
 
     .face:hover{
         cursor: pointer;
-        background-image: url(./assets/fbf.svg) ;
+        background-image: url(./assets/facef.png) ;
         height: 40px;
         width: 40px;
         background-size: cover;
@@ -1798,7 +1814,7 @@ color: #12b2eb;
     
     
     .insta {
-        background-image: url(./assets/insta.svg) ;
+        background-image: url(./assets/instaf.svg) ;
         height: 35px;
         width: 35px;
         background-size: cover;
@@ -1809,7 +1825,7 @@ color: #12b2eb;
 
     .insta:hover{
         cursor: pointer;
-        background-image: url(./assets/instaf.svg) ;
+        background-image: url(./assets/instaf.png) ;
         height: 35px;
         width: 35px;
         background-size: cover;
@@ -1840,7 +1856,7 @@ color: #12b2eb;
     }
 
     .face {
-        background-image: url(./assets/fb.svg) ;
+        background-image: url(./assets/face.png) ;
         height: 35px;
         width: 35px;
         background-size: cover;
@@ -1851,7 +1867,7 @@ color: #12b2eb;
 
     .face:hover{
         cursor: pointer;
-        background-image: url(./assets/fbf.svg) ;
+        background-image: url(./assets/facef.png) ;
         height: 35px;
         width: 35px;
         background-size: cover;

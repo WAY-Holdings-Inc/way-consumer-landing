@@ -34,73 +34,69 @@ html, body {
 }
 
 
+  
+.instah {
+    background-image: url(./assets/insta.png) ;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 
+}
+
+.instah:hover{
+    cursor: pointer;
+    background-image: url(./assets/instaf.png) ;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 
-   
-    .insta {
-        background-image: url(./assets/insta.svg) ;
-        height: 50px;
-        width: 50px;
-        background-size: cover;
-        background-repeat: no-repeat;
+}
+
+.email {
+    background-image: url(./assets/email.svg) ;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 
-    }
+}
 
-    .insta:hover{
-        cursor: pointer;
-        background-image: url(./assets/instaf.svg) ;
-        height: 50px;
-        width: 50px;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-
-    }
-
-    .email {
-        background-image: url(./assets/email.svg) ;
-        height: 50px;
-        width: 50px;
-        background-size: cover;
-        background-repeat: no-repeat;
+.email:hover{
+    cursor: pointer;
+    background-image: url(./assets/emailf.svg) ;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 
-    }
+}
 
-    .email:hover{
-        cursor: pointer;
-        background-image: url(./assets/emailf.svg) ;
-        height: 50px;
-        width: 50px;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-
-    }
-
-    .face {
-        background-image: url(./assets/fb.svg) ;
-        height: 50px;
-        width: 50px;
-        background-size: cover;
-        background-repeat: no-repeat;
+.faceh {
+    background-image: url(./assets/face.png) ;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 
-    }
+}
 
-    .face:hover{
-        cursor: pointer;
-        background-image: url(./assets/fbf.svg) ;
-        height: 50px;
-        width: 50px;
-        background-size: cover;
-        background-repeat: no-repeat;
+.faceh:hover{
+    cursor: pointer;
+    background-image: url(./assets/facef.png) ;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 
-    }
+}
 
 .rowedd {
     display: flex;
@@ -254,71 +250,70 @@ color: #12b2eb;
         
            .phonez img {
                width:60%;
-               padding:10%
-           }
-            .insta {
-                background-image: url(./assets/insta.svg) ;
+               padding:10%}
+               .instah {
+                background-image: url(./assets/insta.png) ;
                 height: 50px;
                 width: 50px;
                 background-size: cover;
                 background-repeat: no-repeat;
-        
-        
-            }
-        
-            .insta:hover{
+            
+            
+               }
+            
+            .instah:hover{
                 cursor: pointer;
-                background-image: url(./assets/instaf.svg) ;
+                background-image: url(./assets/instaf.png) ;
                 height: 50px;
                 width: 50px;
                 background-size: cover;
                 background-repeat: no-repeat;
-        
-        
+            
+            
             }
-        
+            
             .email {
                 background-image: url(./assets/email.svg) ;
-                height: 50px;
-                width: 50px;
+                height: 40px;
+                width: 40px;
                 background-size: cover;
                 background-repeat: no-repeat;
-        
-        
+            
+            
             }
-        
+            
             .email:hover{
                 cursor: pointer;
                 background-image: url(./assets/emailf.svg) ;
+                height: 40px;
+                width: 40px;
+                background-size: cover;
+                background-repeat: no-repeat;
+            
+            
+            }
+            
+            .faceh {
+                background-image: url(./assets/face.png) ;
                 height: 50px;
                 width: 50px;
                 background-size: cover;
                 background-repeat: no-repeat;
-        
-        
+            
+            
             }
-        
-            .face {
-                background-image: url(./assets/fb.svg) ;
-                height: 50px;
-                width: 50px;
-                background-size: cover;
-                background-repeat: no-repeat;
-        
-        
-            }
-        
-            .face:hover{
+            
+            .faceh:hover{
                 cursor: pointer;
-                background-image: url(./assets/fbf.svg) ;
+                background-image: url(./assets/facef.png) ;
                 height: 50px;
                 width: 50px;
                 background-size: cover;
                 background-repeat: no-repeat;
-        
-        
+            
+            
             }
-        
+                    
         .rowed {
             display: flex;
             flex-flow: row wrap;
@@ -931,7 +926,7 @@ color: #12b2eb;
     }
 
     .face {
-        background-image: url(./assets/fb.svg) ;
+        background-image: url(./assets/face.png) ;
         height: 35px;
         width: 35px;
         background-size: cover;
@@ -942,7 +937,7 @@ color: #12b2eb;
 
     .face:hover{
         cursor: pointer;
-        background-image: url(./assets/fbf.svg) ;
+        background-image: url(./assets/facef.png) ;
         height: 35px;
         width: 35px;
         background-size: cover;

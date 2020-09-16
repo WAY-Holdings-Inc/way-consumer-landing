@@ -8,13 +8,13 @@ import logo from './assets/logo.svg';
 import qrcode from './assets/qrcode.svg';
 import watch from './assets/watch.svg';
 
-import tower from './assets/tower.svg';
+import tower from './assets/Tower.png';
 import phone from './assets/phone.png';
 
-import mockup from './assets/emailmock.svg';
+import mockup from './assets/emailmock.png';
 import message from './assets/message.png';
 
-import store from './assets/store.svg';
+import store from './assets/store.png';
 import aid from './assets/aid.svg';
 
 import emoji from './assets/emojis.png';
@@ -302,12 +302,12 @@ function Home() {
                 <Row className="rowed">
                     <Col className="phonez" >
 
-                         <a className="insta" href="https://www.instagram.com/paywithway/"><div className="insta"></div></a>
+                         <a className="instah" href="https://www.instagram.com/paywithway/"><div className="instah"></div></a>
 
                     </Col>
                     <Col className="phonez "  sm>
                          
-                         <a className="email" href="mailto:info@paywithway.com"><div className="email"></div></a>
+                         <a className="emailh" href="mailto:info@paywithway.com"><div className="emailh"></div></a>
 
 
 
@@ -315,7 +315,7 @@ function Home() {
 
                     <Col className="phonez text-center" sm>
 
-                        <a className="face" href=""><div className="face"></div></a>
+                        <a className="faceh" href=""><div className="faceh"></div></a>
 
                     </Col>
                 </Row>

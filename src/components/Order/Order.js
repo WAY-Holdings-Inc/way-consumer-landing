@@ -50,7 +50,7 @@ function Home() {
                 <Row className="rowedd">
                     <Col className="phoneza" >
 
-                         <a className="insta" href="https://www.instagram.com/paywithway/"><div className="insta"></div></a>
+                         <a className="instah" href="https://www.instagram.com/paywithway/"><div className="instah"></div></a>
 
                     </Col>
                     <Col className="phoneza "  sm>
@@ -63,7 +63,7 @@ function Home() {
 
                     <Col className="phoneza text-center" sm>
 
-                        <a className="face" href=""><div className="face"></div></a>
+                        <a className="faceh" href=""><div className="faceh"></div></a>
 
                     </Col>
                 </Row>
