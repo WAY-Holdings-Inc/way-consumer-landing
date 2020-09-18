@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.15328640.chunk.css",
-    "main.js": "/static/js/main.a96051bf.chunk.js",
-    "main.js.map": "/static/js/main.a96051bf.chunk.js.map",
+    "main.css": "/static/css/main.68af452a.chunk.css",
+    "main.js": "/static/js/main.5562a94e.chunk.js",
+    "main.js.map": "/static/js/main.5562a94e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.056f0aac.js",
     "runtime-main.js.map": "/static/js/runtime-main.056f0aac.js.map",
     "static/js/2.4652c552.chunk.js": "/static/js/2.4652c552.chunk.js",
     "static/js/2.4652c552.chunk.js.map": "/static/js/2.4652c552.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d08e8858111999e736fcaf107976e9f0.js": "/precache-manifest.d08e8858111999e736fcaf107976e9f0.js",
+    "precache-manifest.ce272a88c4370e7e909971ea96060089.js": "/precache-manifest.ce272a88c4370e7e909971ea96060089.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.15328640.chunk.css.map": "/static/css/main.15328640.chunk.css.map",
+    "static/css/main.68af452a.chunk.css.map": "/static/css/main.68af452a.chunk.css.map",
     "static/js/2.4652c552.chunk.js.LICENSE.txt": "/static/js/2.4652c552.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/brandon-text-regular.fe9b57ea.woff",
     "static/media/Tower.png": "/static/media/Tower.2a5b4273.png",
@@ -19,12 +19,12 @@
     "static/media/Order.css": "/static/media/instaf.e8290d55.png",
     "static/media/emailmock.png": "/static/media/emailmock.af09428c.png",
     "static/media/emojis.png": "/static/media/emojis.1778a85c.png",
-    "static/media/Home.css": "/static/media/header.8768d97d.png",
+    "static/media/Home.css": "/static/media/phonefooter.aac342a1.png",
     "static/media/glogo.svg": "/static/media/glogo.4e5aaed1.svg",
     "static/media/logo.svg": "/static/media/logo.156988fa.svg",
     "static/media/manrun.svg": "/static/media/manrun.7becf4cd.svg",
     "static/media/message.png": "/static/media/message.21b3fe73.png",
-    "static/media/phone.png": "/static/media/phone.cd0c5692.png",
+    "static/media/phone.png": "/static/media/phone.2e5a8eb7.png",
     "static/media/phonep.png": "/static/media/phonep.dec16c55.png",
     "static/media/qrcode.svg": "/static/media/qrcode.d267e85a.svg",
     "static/media/store.png": "/static/media/store.81295ab1.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.056f0aac.js",
     "static/js/2.4652c552.chunk.js",
-    "static/css/main.15328640.chunk.css",
-    "static/js/main.a96051bf.chunk.js"
+    "static/css/main.68af452a.chunk.css",
+    "static/js/main.5562a94e.chunk.js"
   ]
 }
