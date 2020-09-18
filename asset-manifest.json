@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.292bea5a.chunk.css",
-    "main.js": "/static/js/main.54d141c5.chunk.js",
-    "main.js.map": "/static/js/main.54d141c5.chunk.js.map",
+    "main.css": "/static/css/main.15328640.chunk.css",
+    "main.js": "/static/js/main.a96051bf.chunk.js",
+    "main.js.map": "/static/js/main.a96051bf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.056f0aac.js",
     "runtime-main.js.map": "/static/js/runtime-main.056f0aac.js.map",
-    "static/js/2.891f0c5c.chunk.js": "/static/js/2.891f0c5c.chunk.js",
-    "static/js/2.891f0c5c.chunk.js.map": "/static/js/2.891f0c5c.chunk.js.map",
+    "static/js/2.4652c552.chunk.js": "/static/js/2.4652c552.chunk.js",
+    "static/js/2.4652c552.chunk.js.map": "/static/js/2.4652c552.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c8e518022cbd9af844fe289fd06c3300.js": "/precache-manifest.c8e518022cbd9af844fe289fd06c3300.js",
+    "precache-manifest.d08e8858111999e736fcaf107976e9f0.js": "/precache-manifest.d08e8858111999e736fcaf107976e9f0.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.292bea5a.chunk.css.map": "/static/css/main.292bea5a.chunk.css.map",
-    "static/js/2.891f0c5c.chunk.js.LICENSE.txt": "/static/js/2.891f0c5c.chunk.js.LICENSE.txt",
+    "static/css/main.15328640.chunk.css.map": "/static/css/main.15328640.chunk.css.map",
+    "static/js/2.4652c552.chunk.js.LICENSE.txt": "/static/js/2.4652c552.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/brandon-text-regular.fe9b57ea.woff",
     "static/media/Tower.png": "/static/media/Tower.2a5b4273.png",
     "static/media/aid.svg": "/static/media/aid.31ffec15.svg",
@@ -25,14 +25,15 @@
     "static/media/manrun.svg": "/static/media/manrun.7becf4cd.svg",
     "static/media/message.png": "/static/media/message.21b3fe73.png",
     "static/media/phone.png": "/static/media/phone.cd0c5692.png",
+    "static/media/phonep.png": "/static/media/phonep.dec16c55.png",
     "static/media/qrcode.svg": "/static/media/qrcode.d267e85a.svg",
     "static/media/store.png": "/static/media/store.81295ab1.png",
     "static/media/watch.svg": "/static/media/watch.fcdb5197.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.056f0aac.js",
-    "static/js/2.891f0c5c.chunk.js",
-    "static/css/main.292bea5a.chunk.css",
-    "static/js/main.54d141c5.chunk.js"
+    "static/js/2.4652c552.chunk.js",
+    "static/css/main.15328640.chunk.css",
+    "static/js/main.a96051bf.chunk.js"
   ]
 }
