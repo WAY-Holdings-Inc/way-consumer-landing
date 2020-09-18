@@ -55,7 +55,7 @@ function Home() {
                     </Col>
                     <Col className="phoneza "  sm>
                          
-                         <a className="email" href="mailto:business@paywithway.com"><div className="email"></div></a>
+                         <a className="emailh" href="mailto:business@paywithway.com"><div className="emailh"></div></a>
 
 
 
@@ -74,7 +74,7 @@ function Home() {
                         <a href="https://www.paywithway.com/terms">Terms of Service</a> <span>| </span> <a href="https://www.paywithway.com/privacy">Privacy Policy</a>
                         <br></br>
 
-                        <h3>© 2020 WAY Holdings, Inc.</h3>
+                        <p>© 2020 WAY Holdings, Inc.</p>
 
                         </Col>
                         

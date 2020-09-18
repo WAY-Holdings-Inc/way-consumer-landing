@@ -73,7 +73,7 @@ overflow: hidden;
 }
 
 .way-container {
-    padding-top: 5%;
+    padding-top: -25%;
     text-align: center;
 
 }
@@ -632,6 +632,9 @@ color: #12b2eb;
 .mobile {
     display:none
 }
+.mobilep {
+    display:none
+}
 
 .btnz { 
     cursor: pointer; 
@@ -689,24 +692,24 @@ color: #12b2eb;
 
         .way-containerl{
             text-align: center;
-
-            padding:7%;
+            padding:20%;
             text-align: center;
             background-image: url(./assets/header.png) ;
             background-repeat: no-repeat;
             background-size: cover;
-            overflow-x:hidden;
+            margin-top:-5%;
+            padding-bottom:70%;
 
-        
+
+            
         }
         
         
         .logo img{
             width: 40px;
             height:40px;
-            margin-top: -10%;
+            margin-top: -80%;
             margin-left: 5%;
-            text-align: center;     
             padding: 0px;
         }
         .home-title img {
@@ -717,25 +720,24 @@ color: #12b2eb;
 
 
         .home-title h1 {
-            font-size: 48px;
+            font-size: 46px;
             font-family: 'Nunito-Bold';
-            text-align: center;
-
+            width: 120%;
+            margin-left: -5%;
         
             }
         
         
          .home-title p{
             font-family: 'Nunito-Regular';
-            font-size: 24px;
-            text-align: center;
+            font-size: 18px;
+            margin-left: 10%;
 
-        
             }
         
         .top-left {
-            padding-top: 0%;
-            padding-left: 10%;
+            margin-top: 0%;
+            padding-left: 0%;
             color: #ffffff ;
           }
         
@@ -749,25 +751,66 @@ color: #12b2eb;
             width: 9.5em;
             text-align: center;
             height: 30px; 
-            width: 130px; 
-            color:#C29C4A; 
+            width: 120px; 
+            color:#B174F7; 
             font-family: 'Nunito-Bold';
             font-size: 14px;
+            margin-bottom: 70%;
+            margin-left: 5%;
+
+
+
+
         
         } 
 
-        .store{
-            display:none;
-            margin-top: -20%;
-            margin-left: 55%;
-            width: 100%;
+
+
+        
+        .top-left a {
+            margin-bottom: 40%;
+            padding-top: -90%;
+
+        }
+
+        .mobile{
+            display: none;
+        }
+        .mobilep{
+            display: inline-block;
+            margin-top: 0%;
+
+        }
+
+        .desktopp{
+            display: none;
+        }
+        .store {
+            margin-bottom: -160%;
+            margin-top: -60%;
+            margin-left: 6.75%;
+            width:100px;
+            height:auto;
+            padding-top: 10%;
+
+           
         }
         
+        .store img{
+padding: 0;
+            width:450px;
+            height:auto;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+                   
+
+        }
         .none br {
             display: block;
         }
         .way-container {
-            padding-top: 5%;
+            padding-top: 25%;
             text-align: center;
         
         }
@@ -799,9 +842,9 @@ color: #12b2eb;
         }
 
         .way-containerc h1 {
-             margin-top: -10%;
+             margin-top: 2.5%;
             font-family: "Nunito-Bold";
-            font-size: 28px;
+            font-size: 32px;
             text-align: center;
         }
 
@@ -819,6 +862,8 @@ color: #12b2eb;
     font-family: 'Nunito-Bold';
     font-size: 14px;
     margin-bottom: 10%;
+    margin-top: 5%;
+
 
 } 
         
@@ -856,9 +901,9 @@ color: #12b2eb;
     
     }
     .photoa img {
-    margin-left:70.5%;
-    margin-top: -50%;
-    width: 80%;
+    margin-left:20.5%;
+    margin-top: -25%;
+    width: 65%;
     overflow-x:hidden;
 
     }
@@ -1138,7 +1183,7 @@ color: #12b2eb;
 }
 
 .way-containerk{
-    margin-top: -40%;
+    margin-top: -35%;
     text-align: center;
     background-image: url(./assets/footer.png) ;
     background-repeat: no-repeat;
@@ -1150,166 +1195,182 @@ color: #12b2eb;
 .way-containerk h3{
     padding: 50%;
     margin-left: -50%;
-    padding-top: 67.5%;
+    padding-top: 64.5%;
     width: 100%;
     color: #ffffff ;
     font-family:'Nunito-Bold';
-    font-size: 18px}
-.special {
+    font-size: 28px}
+    .special {
 
-    font-size: 30px}
-
+        font-size: 36px}
+     
+        .instah {
+            background-image: url(./assets/insta.png) ;
+            height: 50px;
+            width: 50px;
+            background-size: cover;
+            background-repeat: no-repeat;
     
     
-
-
-   
-    .insta {
-        background-image: url(./assets/instaf.svg) ;
-        height: 40px;
-        width: 40px;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-
+        }
+    
+        .instah:hover{
+            cursor: pointer;
+            background-image: url(./assets/instaf.png) ;
+            height: 50px;
+            width: 50px;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+    
+        }
+    
+        .emailh {
+            background-image: url(./assets/email.svg) ;
+            height: 50px;
+            width: 50px;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+    
+        }
+    
+        .emailh:hover{
+            cursor: pointer;
+            background-image: url(./assets/emailf.svg) ;
+            height: 50px;
+            width: 50px;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+    
+        }
+    
+        .faceh {
+            background-image: url(./assets/face.png) ;
+            height: 50px;
+            width: 50px;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+    
+        }
+    
+        .faceh:hover{
+            cursor: pointer;
+            background-image: url(./assets/facef.png) ;
+            height: 50px;
+            width: 50px;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+    
+        }
+    
+    .rowed {
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+        margin-left: 34.75%;
+        margin-right: auto;
+        margin-top: -10%;
+        
     }
-
-    .insta:hover{
+    
+    
+    .way-containerz {
+        margin-top: 25.5%;
+    }
+    
+    .phonez {
+        
+        padding-left: 5.5%;
+    }
+    .glogo img {
+        height: 55px;
+        width: 55px;
+        margin-left: 46.750%;
+        margin-bottom: 13%;
+    
+    }
+    
+    
+    .privacyy {
+        text-align: center;
+        color:  #C4C4C4;
+    
+    }
+    
+    .privacyy p{
+        padding-top: 2%;
+    
+        font-family: 'Nunito-Regular';
+    
+        text-align: center;
+        font-size: 16px;
+        color: #C4C4C4;
+    
+    /* identical to box height */
+    
+    
+    color: #C4C4C4;
+    
+    }
+    
+    .privacyy a{
+    
+        margin-top: 30%;
+        text-decoration: none;
+        font-family: 'Nunito-Regular';
+        text-align: center;
+        font-size: 16px;
+    
+    
+    color: #C4C4C4;
+    
+    }
+    
+    
+    .privacyy a:hover{
         cursor: pointer;
-        background-image: url(./assets/instaf.png) ;
-        height: 40px;
-        width: 40px;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-
-    }
-
-    .email {
-        background-image: url(./assets/email.svg) ;
-        height: 40px;
-        width: 40px;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-
-    }
-
-    .email:hover{
-        cursor: pointer;
-        background-image: url(./assets/emailf.svg) ;
-        height: 40px;
-        width: 40px;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-
-    }
-
-    .face {
-        background-image: url(./assets/face.png) ;
-        height: 40px;
-        width: 40px;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-
-    }
-
-    .face:hover{
-        cursor: pointer;
-        background-image: url(./assets/facef.png) ;
-        height: 40px;
-        width: 40px;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-
-    }
-
-.rowed {
-    display: flex;
-    flex-flow: row wrap;
-    text-align: center;
-    margin-left: 38%;
-    margin-right: auto;
-    margin-top: -10%;
+        
+        margin-top: 30%;
     
-}
-
-
-.way-containerz {
-    margin-top: -20%;
-}
-
-.phonez {
+        font-family: 'Nunito-Bold';
     
-    padding-left: 5.5%;
-}
-.glogo img {
-    height: 60px;
-    width: 60px;
-    margin-left: 46%;
-    margin-bottom: 22%;
-
-}
-
-
-.privacyy {
-    text-align: center;
-}
-
-.privacyy h3{
-    padding-top: 2%;
-
-    font-family: 'Nunito-Regular';
-
-    text-align: center;
-    font-size: 16px;
-/* identical to box height */
-
-
-color: #C4C4C4;
-
-}
-
-.privacyy a{
-
-    margin-top: 30%;
-
-    font-family: 'Nunito-Regular';
-    text-align: center;
-    font-size: 16px;
-
-
-color: #C4C4C4;
-
-}
-
-
-.privacyy a:hover{
-    cursor: pointer;
+        text-align: center;
+        font-size: 16px;
     
-    margin-top: 30%;
-
-    font-family: 'Nunito-Bold';
-
-    text-align: center;
-    font-size: 16px;
-
-
-color: #12b2eb;
-
-}
-
-
-.privacyy {
-    margin-top: 4%;
-    margin-bottom: 5%;
     
+    color: #12b2eb;
+    
+    }
+    
+    
+    .privacyy {
+        margin-top: 4%;
+        margin-bottom: 5%;
+        
+    
+    }
+    .btnz { 
+        cursor: pointer; 
+        color: #ffffff;
+        border: white;
+        background-color: #ffffff;
+        border-radius: 45px;
+        width: 9.5em;
+        text-align: center;
+        height: 30px; 
+        width: 120px; 
+        color:#B174F7; 
+        font-family: 'Nunito-Bold';
+        font-size: 14px;
+        margin-top: -7.5%;
 
-}
-
+    
+    } 
+    
 
 
     }
@@ -1351,11 +1412,12 @@ color: #12b2eb;
 
 
     @media  (max-width: 600px) {
+        
 
        
         .way-containerl{
             text-align: center;
-            padding:14%;
+            padding:20%;
             text-align: center;
             background-image: url(./assets/gradient1.png) ;
             background-repeat: no-repeat;
@@ -1368,7 +1430,7 @@ color: #12b2eb;
             width: 30px;
             height:30px;
             margin-top: 2%;
-            margin-left: 5.5%;
+            margin-left: 0%;
             padding: 0px;
         }
         .home-title img {
@@ -1379,21 +1441,24 @@ color: #12b2eb;
 
 
         .home-title h1 {
-            font-size: 28px;
+            font-size: 36px;
             font-family: 'Nunito-Bold';
+            width: 120%;
+            margin-left: -5%;
         
             }
         
         
          .home-title p{
             font-family: 'Nunito-Regular';
-            font-size: 14px;
+            font-size: 18px;
+            padding-bottom: 10%;
         
             }
         
         .top-left {
             padding-top: 0%;
-            padding-left: 10%;
+            padding-left: 0%;
             color: #ffffff ;
           }
         
@@ -1406,7 +1471,7 @@ color: #12b2eb;
             border-radius: 45px;
             width: 9.5em;
             text-align: center;
-            height: 25px; 
+            height: 30px; 
             width: 120px; 
             color:#C29C4A; 
             font-family: 'Nunito-Bold';
@@ -1414,24 +1479,44 @@ color: #12b2eb;
         
         } 
 
-        .store{
-            display:none;
-            margin-top: -20%;
-            margin-left: 55%;
-            width: 100%;
+        .mobile{
+            display: none;
+        }
+        .mobilep{
+            display: none;
+        }
+
+
+        .store {
+            margin-bottom: -160%;
+            margin-top: 30%;
+            margin-left: -50.75%;
+            width:100px;
+            height:auto;
+           
         }
         
+        .store img{
+        
+            width:350px;
+            height:auto;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+                   
+
+        }
         .none br {
             display: block;
         }
         .way-container {
-            padding-top: 5%;
+            padding-top: 75%;
             text-align: center;
         
         }
         
         .way-container h1 {
-            font-size: 24px;
+            font-size: 22px;
             font-family: "Nunito-Bold";
         
         }
@@ -1440,16 +1525,27 @@ color: #12b2eb;
             font-size: 14px;
             font-family: "Nunito-SemiBold";
             color: #868686;
+            width:85%;
+            text-align: center;
+            margin-left: 5%;
             
         
         }
         
-        .break {
-            width:60%;
-            margin-left: 20%;
-            text-align: center;
+   
+        .bigger h1{
+            font-size: 30px;
+
         }
-        
+        .way-containerb {
+            text-align: center;
+            background-image: url(./assets/hand.png) ;
+            background-position: -80px 5px; 
+
+            padding: 70%;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
         
         
         .phonez img {
@@ -1457,9 +1553,12 @@ color: #12b2eb;
         }
 
         .way-containerc h1 {
+            padding-top: 10%;
+            padding-bottom: 10%;
+
             margin-top: -5%;
             font-family: "Nunito-Bold";
-            font-size: 28px;
+            font-size: 24px;
             text-align: center;
         }
 
@@ -1471,7 +1570,7 @@ color: #12b2eb;
     border-radius: 45px;
     width: 9.5em;
     text-align: center;
-    height: 25px; 
+    height: 30px; 
     width: 120px; 
     color:#ffffff; 
     font-family: 'Nunito-Bold';
@@ -1513,9 +1612,9 @@ color: #12b2eb;
     
     }
     .photoa img {
-    margin-left:65.5%;
-    margin-top: -25%;
-    width: 90%;
+    margin-left: 10.5%;
+    margin-top: -15%;
+    width: 80%;
     
     }
 
@@ -1605,7 +1704,7 @@ color: #12b2eb;
     .photocb img {
         padding-top: 30%;
         margin-left:45.5%;
-        margin-top: -25%;
+        margin-top: -47%;
         overflow: hidden;
         width: 90%;
 
@@ -1615,7 +1714,7 @@ color: #12b2eb;
     .photoca img {
         margin-left:10.5%;
         padding-top: 60%;
-        margin-bottom: -115%;
+        margin-bottom: -80%;
 
         overflow: hidden;
         width: 60%;
@@ -1717,6 +1816,7 @@ color: #12b2eb;
     padding-top:-40%;
 
     margin-top: -60%;
+    width:70%;
 
     margin-left: 0%;
     color: #000000 ;
@@ -1780,11 +1880,11 @@ color: #12b2eb;
 
 }
 .photog img {
-    margin-left:20.5%;
+    margin-left:25.5%;
     margin-top:  10%;
-    padding-bottom:20%;
+    padding-bottom:5%;
     overflow: hidden;
-    width: 60%;
+    width: 50%;
 
 
 }
@@ -1792,9 +1892,13 @@ color: #12b2eb;
 .way-containerk{
     margin-top: -40%;
     text-align: center;
-    background-image: url(./assets/footer.png) ;
+    background-image: url(./assets/phonefooter.png) ;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    background-position: -6px 5px; 
+
 
 }
 
@@ -1802,7 +1906,7 @@ color: #12b2eb;
 .way-containerk h3{
     padding: 50%;
     margin-left: -50%;
-    padding-top: 62.5%;
+    padding-top: 80.5%;
     width: 100%;
     color: #ffffff ;
     font-family:'Nunito-Bold';
@@ -1813,8 +1917,8 @@ color: #12b2eb;
 
     
     
-    .insta {
-        background-image: url(./assets/instaf.svg) ;
+    .instah {
+        background-image: url(./assets/insta.png) ;
         height: 35px;
         width: 35px;
         background-size: cover;
@@ -1823,7 +1927,7 @@ color: #12b2eb;
 
     }
 
-    .insta:hover{
+    .instah:hover{
         cursor: pointer;
         background-image: url(./assets/instaf.png) ;
         height: 35px;
@@ -1834,7 +1938,7 @@ color: #12b2eb;
 
     }
 
-    .email {
+    .emailh {
         background-image: url(./assets/email.svg) ;
         height: 35px;
         width: 35px;
@@ -1844,7 +1948,7 @@ color: #12b2eb;
 
     }
 
-    .email:hover{
+    .emailh:hover{
         cursor: pointer;
         background-image: url(./assets/emailf.svg) ;
         height: 35px;
@@ -1855,7 +1959,7 @@ color: #12b2eb;
 
     }
 
-    .face {
+    .faceh {
         background-image: url(./assets/face.png) ;
         height: 35px;
         width: 35px;
@@ -1865,7 +1969,7 @@ color: #12b2eb;
 
     }
 
-    .face:hover{
+    .faceh:hover{
         cursor: pointer;
         background-image: url(./assets/facef.png) ;
         height: 35px;
@@ -1880,7 +1984,7 @@ color: #12b2eb;
     display: flex;
     flex-flow: row wrap;
     text-align: center;
-    margin-left: 30%;
+    margin-left: 25%;
     margin-right: auto;
     margin-top: -5%;
     
@@ -1905,7 +2009,11 @@ color: #12b2eb;
 
 
 .privacyy {
+    padding-top: 5.5%;
+margin-left: 5%;
     text-align: center;
+    padding-bottom: 15.5%;
+
 }
 
 .privacyy h3{
@@ -1963,10 +2071,106 @@ color: #12b2eb;
     display:inline-block;
 }
 
+.mobilep 
+{
+    display:inline-block;
+}
+
 .desktop {
     display:none
 }
+.desktopp {
+    display:none
+}
+.btnz { 
+    cursor: pointer; 
+    color: #ffffff;
+    border: white;
+    background-color: #ffffff;
+    border-radius: 45px;
+    width: 9.5em;
+    text-align: center;
+    height: 30px; 
+    width: 120px; 
+    color:#B174F7; 
+    font-family: 'Nunito-Bold';
+    font-size: 14px;
+
+} 
+
+.way-containerbutton {
+    margin-top: -95.5%;
+    margin-left: 34.75%;
+    margin-bottom: 65.5%;
 
 
+}
 
+    }
+
+
+    @media  (max-width: 375px) and (min-width:374px) {
+        
+        .store {
+            margin-bottom: -160%;
+            margin-top: 30%;
+            margin-left: -55.75%;
+            width:100px;
+            height:auto;
+           
+        }
+        
+        .store img{
+        
+            width:350px;
+            height:auto;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+                   
+
+        }
+
+        .way-containerb {
+            text-align: center;
+            background-image: url(./assets/hand.png) ;
+            background-position: -75px 5px; 
+
+            padding: 70%;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+
+    @media  (max-width: 320px) and (min-width:319px) {
+        
+        .store {
+            margin-bottom: -160%;
+            margin-top: 30%;
+            margin-left: -78.75%;
+            width:100px;
+            height:auto;
+           
+        }
+        
+        .store img{
+    
+            width:350px;
+            height:auto;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+                   
+
+        }
+
+         .way-containerb {
+            text-align: center;
+            background-image: url(./assets/hand.png) ;
+            background-position: -75px 5px; 
+
+            padding: 70%;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
     }

@@ -56,21 +56,21 @@ html, body {
 
 }
 
-.email {
+.emailh {
     background-image: url(./assets/email.svg) ;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     background-size: cover;
     background-repeat: no-repeat;
 
 
 }
 
-.email:hover{
+.emailh:hover{
     cursor: pointer;
     background-image: url(./assets/emailf.svg) ;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -176,8 +176,25 @@ color: #12b2eb;
     margin-bottom: 5%;
     
 
+
 }
 
+
+.privacys p{
+    padding-top: 2%;
+
+    font-family: 'Nunito-Regular';
+
+    text-align: center;
+    font-size: 16px;
+    color: #C4C4C4;
+
+/* identical to box height */
+
+
+color: #C4C4C4;
+
+}
 
 
 
@@ -211,9 +228,8 @@ color: #12b2eb;
 
     @media  (min-width: 601px) and (max-width: 1200px) {
 
-        html, body {
-            position:relative;
-            overflow:scroll;
+        body {
+            overflow-x:hidden;
         }
         
         
@@ -251,84 +267,10 @@ color: #12b2eb;
            .phonez img {
                width:60%;
                padding:10%}
-               .instah {
-                background-image: url(./assets/insta.png) ;
-                height: 50px;
-                width: 50px;
-                background-size: cover;
-                background-repeat: no-repeat;
-            
-            
-               }
-            
-            .instah:hover{
-                cursor: pointer;
-                background-image: url(./assets/instaf.png) ;
-                height: 50px;
-                width: 50px;
-                background-size: cover;
-                background-repeat: no-repeat;
-            
-            
-            }
-            
-            .email {
-                background-image: url(./assets/email.svg) ;
-                height: 40px;
-                width: 40px;
-                background-size: cover;
-                background-repeat: no-repeat;
-            
-            
-            }
-            
-            .email:hover{
-                cursor: pointer;
-                background-image: url(./assets/emailf.svg) ;
-                height: 40px;
-                width: 40px;
-                background-size: cover;
-                background-repeat: no-repeat;
-            
-            
-            }
-            
-            .faceh {
-                background-image: url(./assets/face.png) ;
-                height: 50px;
-                width: 50px;
-                background-size: cover;
-                background-repeat: no-repeat;
-            
-            
-            }
-            
-            .faceh:hover{
-                cursor: pointer;
-                background-image: url(./assets/facef.png) ;
-                height: 50px;
-                width: 50px;
-                background-size: cover;
-                background-repeat: no-repeat;
-            
-            
-            }
-                    
-        .rowed {
-            display: flex;
-            flex-flow: row wrap;
-            text-align: center;
-            margin-left: 32.5%;
-            margin-right: auto;
-            margin-top: -20%;
-            
-        }
+             
+       
         
-        
-        .way-containerz {
-            margin-top: 5%;
-            margin-left:1%;
-        }
+       
         
         .phonez {
             
@@ -337,64 +279,154 @@ color: #12b2eb;
         
         
         
-        
-        .privacy {
-            text-align: center;
+        .instah {
+            background-image: url(./assets/insta.png) ;
+            height: 50px;
+            width: 50px;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+    
         }
-        
-        .privacy h3{
-            padding-top: 0%;
-        
-            font-family: 'Nunito-Regular';
-        
-            text-align: center;
-            font-size: 16px;
-        /* identical to box height */
-        
-        
-        color: #C4C4C4;
-        
-        }
-        
-        .privacy a{
-        
-            margin-top: 30%;
-            text-decoration: none;
-            font-family: 'Nunito-Regular';
-            text-align: center;
-            font-size: 16px;
-        
-        
-        color: #C4C4C4;
-        
-        }
-        
-        
-        .privacy a:hover{
+    
+        .instah:hover{
             cursor: pointer;
-            
-            margin-top: 30%;
-        
-            font-family: 'Nunito-Bold';
-        
-            text-align: center;
-            font-size: 16px;
-        
-        
-        color: #12b2eb;
-        
+            background-image: url(./assets/instaf.png) ;
+            height: 50px;
+            width: 50px;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+    
         }
-        
-        
-        .privacy {
-            margin-left: -2%;
-            margin-top: 2%;
-            margin-bottom: 5%;
-            
-        
+    
+        .emailh {
+            background-image: url(./assets/email.svg) ;
+            height: 50px;
+            width: 50px;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+    
         }
+    
+        .emailh:hover{
+            cursor: pointer;
+            background-image: url(./assets/emailf.svg) ;
+            height: 50px;
+            width: 50px;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+    
+        }
+    
+        .faceh {
+            background-image: url(./assets/face.png) ;
+            height: 50px;
+            width: 50px;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+    
+        }
+    
+        .faceh:hover{
+            cursor: pointer;
+            background-image: url(./assets/facef.png) ;
+            height: 50px;
+            width: 50px;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+    
+        }
+    
+    .rowedd {
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+        margin-left: 34.75%;
+        margin-right: auto;
+        margin-top: -10%;
         
+    }
+    
+    
+    .way-containerza {
+        margin-top: .5%;
+    }
+    
+    .phonez {
         
+        padding-left: 5.5%;
+    }
+    .glogo img {
+        height: 55px;
+        width: 55px;
+        margin-left: 46.750%;
+        margin-bottom: 13%;
+    
+    }
+    
+    
+    .privacys {
+        text-align: center;
+        color:  #C4C4C4;
+    
+    }
+    
+    .privacys p{
+        padding-top: 2%;
+    
+        font-family: 'Nunito-Regular';
+    
+        text-align: center;
+        font-size: 16px;
+        color: #C4C4C4;
+    
+    /* identical to box height */
+    
+    
+    color: #C4C4C4;
+    
+    }
+    
+    .privacys a{
+    
+        margin-top: 30%;
+        text-decoration: none;
+        font-family: 'Nunito-Regular';
+        text-align: center;
+        font-size: 16px;
+    
+    
+    color: #C4C4C4;
+    
+    }
+    
+    
+    .privacys a:hover{
+        cursor: pointer;
+        
+        margin-top: 30%;
+    
+        font-family: 'Nunito-Bold';
+    
+        text-align: center;
+        font-size: 16px;
+    
+    
+    color: #12b2eb;
+    
+    }
+    
+    
+    .privacys {
+        margin-top: 4%;
+        margin-bottom: 5%;
+        
+    
 
 
 
@@ -405,7 +437,7 @@ color: #12b2eb;
 
 
 
-
+    }
 
 
 
@@ -443,13 +475,7 @@ color: #12b2eb;
         }
       
         
-        .logo img{
-            width: 30px;
-            height:30px;
-            margin-top: 2%;
-            margin-left: 5.5%;
-            padding: 0px;
-        }
+      
         .home-title img {
         
         width: 100%;
@@ -457,24 +483,6 @@ color: #12b2eb;
 
 
 
-        .home-title h1 {
-            font-size: 28px;
-            font-family: 'Nunito-Bold';
-        
-            }
-        
-        
-         .home-title p{
-            font-family: 'Nunito-Regular';
-            font-size: 14px;
-        
-            }
-        
-        .top-left {
-            padding-top: 0%;
-            padding-left: 10%;
-            color: #ffffff ;
-          }
         
         
           .btn { 
@@ -493,13 +501,6 @@ color: #12b2eb;
         
         } 
 
-        .store{
-            display:none;
-            margin-top: -20%;
-            margin-left: 55%;
-            width: 100%;
-        }
-        
         .none br {
             display: block;
         }
@@ -535,500 +536,8 @@ color: #12b2eb;
             width: 100%;
         }
 
-        .way-containerc h1 {
-            margin-top: -5%;
-            font-family: "Nunito-Bold";
-            font-size: 28px;
-            text-align: center;
-        }
-
-
-.btnn { 
-    cursor: pointer; 
-    border: transparent;
-    background-image: linear-gradient(318.59deg, #1235EB -24.64%, #12B2EB 54.89%, #89E4FD 120.42%);
-    border-radius: 45px;
-    width: 9.5em;
-    text-align: center;
-    height: 25px; 
-    width: 120px; 
-    color:#ffffff; 
-    font-family: 'Nunito-Bold';
-    font-size: 14px;
-    margin-bottom: 10%;
-
-} 
-        
-
-.benefita {
-    padding-top: 10%;
-        margin-left: 10%;
-        color: #000000 ;
-      
-    }
     
-    
-    .benefita  h3{
-        padding-top:10%;
-    
-        margin-top: -10%;
-    
-        margin-left: 0%;
-        color: #000000 ;
-        font-family:'Nunito-Bold';
-        font-size: 24px;
-      
-    }
-    
-    .benefita  p{
-        margin-left: 0%;
-        padding-bottom: 30%;
-        color: #000000 ;
-        font-family:'Nunito-SemiBold';
-        color: #868686;
-        font-size: 16px;
-    
-    
-    
-    }
-    .photoa img {
-    margin-left:65.5%;
-    margin-top: -25%;
-    width: 90%;
-    
-    }
-
-    .parent{
-        display:flex;
-        flex-flow: column;
-      }
-      .a{order:2;}
-      .c{order:1;}
-      .b{order:3;}
-
-      .benefitb{
-        padding-top: 10%;
-            margin-left: 7.5%;
-            color: #000000 ;
-          
-        }
-        
-        
-        .benefitb  h3{
-            padding-top:60%;
-        
-            margin-top: -60%;
-        
-            margin-left: 0%;
-            color: #000000 ;
-            font-family:'Nunito-Bold';
-            font-size: 24px;
-          
-        }
-        
-        .benefitb  p{
-            margin-left: 0%;
-            color: #000000 ;
-            font-family:'Nunito-SemiBold';
-            color: #868686;
-            font-size: 16px;
-        
-        
-        
-        }
-        .photob img {
-
-            text-align: center;
-            width: 45%;
-        margin-left:25.5%;
-        margin-top: 15%;
-        
-        }
-    
-
-
-
-
-
-
-.benefitc{
-    margin-top: 50%;
-    margin-left: 10%;
-    color: #000000 ;
-    }
-    
-    
-    .benefitc  h3{
-
-        padding-top:20%;
-    
-        margin-top: -50%;
-    
-        margin-left: 0%;
-        color: #000000 ;
-        font-family:'Nunito-Bold';
-        font-size: 24px;
-      
-    }
-    
-    .benefitc  p{
-        margin-left: 0%;
-        color: #000000 ;
-        font-family:'Nunito-SemiBold';
-        color: #868686;
-        font-size: 16px;
-    
-    
-    
-    }
-    .photocb img {
-        padding-top: 30%;
-        margin-left:45.5%;
-        margin-top: -25%;
-        overflow: hidden;
-        width: 90%;
-
-
-    }
-
-    .photoca img {
-        margin-left:10.5%;
-        padding-top: 60%;
-        margin-bottom: -115%;
-
-        overflow: hidden;
-        width: 60%;
-
-    }
-
-
-    .benefitd{
-        padding-top: 80%;
-            margin-left: 10.5%;
-            color: #000000 ;
-            margin-bottom: -65%;
-
-          
-        }
-        
-        
-        .benefitd  h3{
-        
-            margin-top: -70%;
-        
-            margin-left: 0%;
-            color: #000000 ;
-            font-family:'Nunito-Bold';
-            font-size: 24px;
-          
-        }
-        
-        .benefitd  p{
-            margin-left: 0%;
-            color: #000000 ;
-            font-family:'Nunito-SemiBold';
-            color: #868686;
-            font-size: 16px;
-        
-        
-        
-        }
-        .photod img {
-            padding-top: 10%;
-            padding-bottom: 10%;
-
-        margin-left:20.5%;
-        margin-top:40%;
-        overflow: hidden;
-        width:60%;
-
-        }
-    
-
-.benefite{
-    margin-top: 20%;
-    margin-left: 10%;
-    color: #000000 ;
-    }
-    
-    
-    .benefite  h3{
-
-        padding-top:10%;
-    
-        margin-top: -15%;
-    
-        margin-left: 0%;
-        color: #000000 ;
-        font-family:'Nunito-Bold';
-        font-size: 24px;
-        
-    }
-    
-    .benefite  p{
-        margin-left: 0%;
-        color: #000000 ;
-        font-family:'Nunito-SemiBold';
-        color: #868686;
-        font-size: 16px;
-    
-    
-    
-    }
-    .photoe img {
-        margin-left:30.5%;
-        margin-top: 20%;
-        overflow: hidden;
-        width:40%;
-
-    }
-
-
-.benefitf{
-    margin-top: 80%;
-    margin-left: 10%;
-    color: #000000 ;
-    }
-    
-    
-.benefitf h3{
-
-    padding-top:-40%;
-
-    margin-top: -60%;
-
-    margin-left: 0%;
-    color: #000000 ;
-    font-family:'Nunito-Bold';
-    font-size: 24px;
-    
-}
-    
-.benefitf  p{
-    margin-left: 0%;
-    color: #000000 ;
-    font-family:'Nunito-SemiBold';
-    color: #868686;
-    font-size: 16px;
-    padding-bottom:10%;
-
-
-
-}
-.photof img {
-    margin-left: 15.5%;
-    margin-top: 15%;
-    overflow: hidden;
-    width: 65%;
-
-}
-
-
-
-.benefitg{
-    margin-top: 50%;
-    margin-left: 10%;
-    color: #000000 ;
-    padding-bottom:10%;
-
-    }
-
-
-.benefitg  h3{
-
-    padding-top:20%;
-
-    margin-top: -55%;
-
-    margin-left: 0%;
-    color: #000000 ;
-    font-family:'Nunito-Bold';
-    font-size: 24px;
-
-    
-}
-
-.benefitg  p{
-    margin-left: 0%;
-    color: #000000 ;
-    font-family:'Nunito-SemiBold';
-    color: #868686;
-    font-size: 16px;
-
-
-
-}
-.photog img {
-    margin-left:20.5%;
-    margin-top:  10%;
-    padding-bottom:20%;
-    overflow: hidden;
-    width: 60%;
-
-
-}
-
-
-.way-containerk h3{
-    padding: 50%;
-    margin-left: -50%;
-    padding-top: 62.5%;
-    width: 100%;
-    color: #ffffff ;
-    font-family:'Nunito-Bold';
-    font-size: 16px}
-.special {
-
-    font-size: 24px}
-
-    
-    
-    .insta {
-        background-image: url(./assets/insta.svg) ;
-        height: 35px;
-        width: 35px;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-
-    }
-
-    .insta:hover{
-        cursor: pointer;
-        background-image: url(./assets/instaf.svg) ;
-        height: 35px;
-        width: 35px;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-
-    }
-
-    .email {
-        background-image: url(./assets/email.svg) ;
-        height: 35px;
-        width: 35px;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-
-    }
-
-    .email:hover{
-        cursor: pointer;
-        background-image: url(./assets/emailf.svg) ;
-        height: 35px;
-        width: 35px;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-
-    }
-
-    .face {
-        background-image: url(./assets/face.png) ;
-        height: 35px;
-        width: 35px;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-
-    }
-
-    .face:hover{
-        cursor: pointer;
-        background-image: url(./assets/facef.png) ;
-        height: 35px;
-        width: 35px;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-
-    }
-
-.rowed {
-    display: flex;
-    flex-flow: row wrap;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: auto;
-    margin-top: -5%;
-    
-}
-
-
-.way-containerz {
-    margin-top: -20%;
-}
-
-.phonez {
-    
-    padding-left: 5.5%;
-}
-.glogo img {
-    height: 50px;
-    width: 50px;
-    margin-left: 45%;
-    margin-bottom: 12%;
-
-}
-
-
-.privacy {
-    text-align: center;
-}
-
-.privacy h3{
-    padding-top: 2%;
-
-    font-family: 'Nunito-Regular';
-
-    text-align: center;
-    font-size: 16px;
-/* identical to box height */
-
-
-color: #C4C4C4;
-
-}
-
-.privacy a{
-
-    margin-top: 30%;
-
-    font-family: 'Nunito-Regular';
-    text-align: center;
-    font-size: 16px;
-
-
-color: #C4C4C4;
-
-}
-
-
-.privacy a:hover{
-    cursor: pointer;
-    
-    margin-top: 30%;
-
-    font-family: 'Nunito-Bold';
-
-    text-align: center;
-    font-size: 16px;
-
-
-color: #12b2eb;
-
-}
-
-
-.privacy {
-    margin-top: 4%;
-    margin-bottom: 5%;
-    
-
-}
-
+   
 
 
 

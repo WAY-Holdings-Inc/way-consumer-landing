@@ -10,6 +10,9 @@ import watch from './assets/watch.svg';
 
 import tower from './assets/Tower.png';
 import phone from './assets/phone.png';
+import phonep from './assets/phonep.png';
+
+
 
 import mockup from './assets/emailmock.png';
 import message from './assets/message.png';
@@ -58,8 +61,10 @@ function Home() {
                         </div>
                        
                     </Col>
-                    <Col lg={6} className="store text-center">
-                    <img src={phone} alt="mockup"/>
+                    <Col lg={6} className="store ">
+                    <img className="desktopp" src={phone} alt="mockup"/>
+                    <img className="mobilep" src={phonep} alt="mockup"/>
+
                     </Col>
                 </Row>
             </Container>
@@ -70,13 +75,13 @@ function Home() {
                     <Col className="phonez ">
                         <h1 className="way-phone-text">The convenience of pickup.<br></br> In a better Way.</h1>
                          
-                        <p className="none" >Your portal to your favorite Collegetown <br></br> restaurants lives on campus.</p>
+                        <p className="none" >Your portal to your favorite <br></br> Collegetown  restaurants lives on campus.</p>
                         <img src={tower} alt="clocktower"/>
 
                         <p className="break" >Way is a breakthrough pickup platform designed to make sure you don’t waste a second of your day. Just scan from thousands of our unique QR codes around campus to order and pay on your way home, on your way to class, or simply on your way.</p>
-
-                        <h1 className="text-centers">It’s as easy <br></br> as it sounds.</h1>
-
+<div className="bigger">
+                        <h1 className="text-centers ">It’s as easy <br></br> as it sounds.</h1>
+                        </div>
                     </Col>
                 </Row>
             </Container>
@@ -276,7 +281,7 @@ function Home() {
 
             <Container fluid className="way-containerk " >
            
-            <h3>Order and Pay with Way<br></br><span className='special'> Any time. Any place.<br></br> Any Way you want.</span></h3>
+            <h3>Order and Pay with Way.<br></br><span className='special'> Any time. Any place.<br></br> Any Way you want.</span></h3>
             
         </Container>
 
